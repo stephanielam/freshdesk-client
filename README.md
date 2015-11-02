@@ -23,7 +23,7 @@ Or install it yourself as:
 Authentication:
 
 ```ruby
-client = Freshdesk::Client.new(companyname, email, password)
+client = Freshdesk::Client.new(subdomain, email, password)
 ```
 
 To retrieve all users and companies:
